@@ -1,4 +1,9 @@
 #pragma once
+#include <vector>
+#include <string>
+#include <iostream>
+
+
 template<typename T>
 void printVector(std::vector<T> myVector) {
 	std::cout << '[';
